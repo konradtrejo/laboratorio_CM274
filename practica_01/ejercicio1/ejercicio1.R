@@ -27,8 +27,9 @@ x <- rep (5.3,3)
 y <- -3
 # y una secuemcia de nueve numeros q empiezan en 102 y terminan el la longuitud del vector total
 #creado en c length(s)=100
-n<- c(1020100,10245100,1027100,10298100,10245100,10214100,10232100,102784100,10276100)
-s <- c(p,x,y,n)
-cat("el vector final en d es = ",s)
+n<- seq(from=102,to=length(s),length.out = 9)
+total <- c(p,x,y,n)
+cat("el vector final en d es = ",total)
 cat("\n La longuitud del vector es length= ")
-length(s)
+length(total)
+
